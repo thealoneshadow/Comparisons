@@ -1,0 +1,24 @@
+Async-await vs .then-catch
+
+
+Both async/await and .then/catch are valid approaches for writing Node.js code.
+
+async/await is a newer syntax introduced in ES2017 that makes asynchronous code more readable and easier to write. 
+It allows you to write asynchronous code in a synchronous style, without blocking the event loop. With async/await, you can write asynchronous code that looks and 
+behaves like synchronous code, making it easier to understand and debug. 
+It also allows you to handle errors in a more concise and straightforward way using try-catch blocks.
+
+.then/catch is the traditional way of handling promises in JavaScript. It is still widely used and supported in modern Node.js versions. 
+.then is used to handle the resolved value of a promise, while .catch is used to handle any errors that occur during the promise chain. 
+It can be more verbose than async/await, but it is still a reliable approach for handling asynchronous operations.
+
+In general, async/await is considered to be a more modern and cleaner way of writing asynchronous code. However, 
+.then/catch can still be useful in certain situations, such as when working with third-party libraries that use promises.
+
+Ultimately, the choice between async/await and .then/catch comes down to personal preference and the specific requirements of your project.
+
+
+
+Thanks for reading.
+TheAloneShadow aka Divyanshu Goyal 
+Linkedin - https://www.linkedin.com/in/divyanshu-goyal-934705182/
