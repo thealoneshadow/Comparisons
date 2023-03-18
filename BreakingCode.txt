@@ -1,0 +1,21 @@
+Breaking code into multiple files can be helpful in many ways, particularly for larger codebases. Here are some of the main benefits:
+
+Improved organization: Breaking code into multiple files can help you organize your codebase in a logical and coherent way, making it easier to understand and maintain.
+You can group related functionality together and separate concerns, such as separating the user interface code from the backend logic.
+
+Easier collaboration: Breaking code into smaller files can make it easier for multiple developers to work on a codebase simultaneously. 
+Each developer can work on their own module or file without having to worry about conflicts or stepping on each other's toes.
+
+Modularization: Breaking code into multiple files can help you create reusable code modules that can be shared across different parts of your application. 
+This can help reduce duplication of code and make it easier to maintain and update your application over time.
+
+Performance: Breaking code into multiple files can also help with performance. Instead of having one large file that needs to be loaded every time the application runs,
+you can load only the necessary files on demand. This can help reduce the initial loading time of your application and improve overall performance.
+
+In general, breaking code into multiple files can be a great way to improve code organization, collaboration, modularization, and performance. However,it's important to 
+keep in mind that breaking code into too many files can also create complexity and make it harder to maintain the codebase. 
+So, it's important to strike a balance and find a structure that works best for your specific needs.
+
+Thanks for reading.
+TheAloneShadow aka Divyanshu Goyal 
+Linkedin - https://www.linkedin.com/in/divyanshu-goyal-934705182/
